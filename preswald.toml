@@ -1,0 +1,20 @@
+[project]
+title = "Unlock Studio"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Vaibhav Mishra Visualisation App"
+logo = "images/myimage.jpg"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.my_dataset_csv]
+type = "csv"
+path = "data/my_dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
